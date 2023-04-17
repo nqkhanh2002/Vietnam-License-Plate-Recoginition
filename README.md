@@ -1,25 +1,17 @@
 # License-Plate-Recognition-YOLOv7-and-CNN
-Check out my 2 YOUTUBE channels for more:
-1. [Mrzaizai2k - AI](https://www.youtube.com/channel/UCFGCVG0P2eLS5jkDaE0vSfA) (NEW)
-2. [Mrzaizai2k](https://www.youtube.com/channel/UCCq3lQ1W437euT9eq2_26HQ) (old)
 
 This project is for the ultimate manner of identifying the License Plate. Combining YOLOv7 object detection, Hough transform alignment, and CNN character recognition
 	
-I created a [Vietnamese License Plate Recognition tool using image processing OpenCV and KNN algorithm](https://github.com/mrzaizai2k/VIETNAMESE_LICENSE_PLATE) (simple, but effective)
-
-<p align="center"><img src="doc/input_img.jpg" width="500"></p>
-<p align="center"><i>Figure. Input license plate </i></p>
-
-<p align="center"><img src="doc/LP_detected_img.png" width="500"></p>
-<p align="center"><i>Figure. Final result </i></p>
 
 ## Table of contents
-* [1. How to use](#1-How-to-use)
-* [2. Introduction](#2-Introduction)
-* [3. License Plate Detection](#3-License-Plate-Detection)
-* [4. Hough Transform Alignment](#4-Hough-Transform-Alignment)
-* [5. Character Segmentation and Recognition](#5-Character-Segmentation-and-Recognition)
-* [6. Conclusion](#6-Conclusion)
+- [License-Plate-Recognition-YOLOv7-and-CNN](#license-plate-recognition-yolov7-and-cnn)
+  - [Table of contents](#table-of-contents)
+  - [1. How to use](#1-how-to-use)
+  - [2. Introduction](#2-introduction)
+  - [3. License Plate Detection](#3-license-plate-detection)
+  - [4. Hough Transform Alignment](#4-hough-transform-alignment)
+  - [5. Character Segmentation and Recognition](#5-character-segmentation-and-recognition)
+  - [6. Conclusion](#6-conclusion)
 
 ## 1. How to use
 
@@ -51,7 +43,7 @@ Difference form my previous repo. I detected LP with just image preprocessing. I
 3. Split the dataset into 70/20/10
 4. Train YOLOv7 on Kaggle 
 
-You can find the whole dataset and the code on my kaggle: [YOLO V7 License Plate Detection](https://www.kaggle.com/code/bomaich/yolo-v7-license-plate-detection)
+<!-- `You can find the whole dataset and the code on my kaggle: [YOLO V7 License Plate Detection](https://www.kaggle.com/code/bomaich/yolo-v7-license-plate-detection)` -->
 
 **[Dataset](https://www.kaggle.com/datasets/bomaich/vnlicenseplate) include 1000 images of both 1 and 2 lines Vietnamese License Plates**
 
