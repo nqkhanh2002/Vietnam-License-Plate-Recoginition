@@ -3,16 +3,15 @@
 This project is for the ultimate manner of identifying the License Plate. Combining YOLOv7 object detection, Hough transform alignment, and CNN character recognition
 	
 
-## Table of contents
+## Table of content
 - [License-Plate-Recognition-YOLOv7-and-CNN](#license-plate-recognition-yolov7-and-cnn)
-  - [Table of contents](#table-of-contents)
+  - [Table of content](#table-of-content)
   - [1. How to use](#1-how-to-use)
   - [2. Introduction](#2-introduction)
   - [3. License Plate Detection](#3-license-plate-detection)
   - [4. Hough Transform Alignment](#4-hough-transform-alignment)
   - [5. Character Segmentation and Recognition](#5-character-segmentation-and-recognition)
   - [6. Conclusion](#6-conclusion)
-
 ## 1. How to use
 
 * Remember to set up neccesary libraries in `requirements.txt` 
