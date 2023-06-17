@@ -39,7 +39,7 @@ For more information, please download the `Nhận diện biển số xe.docx` fi
 6. Canny Edge detection
 7. Detect the plate by drawing contours and if..else
 
-<p align="center"><img src="result/pipline1.png" width="300" ></p>
+<p align="center"><img src="https://github.com/nqkhanh2002/Vietnam-License-Plate-Recoginition/blob/main/result/pipline1.jpg" width="300" ></p>
 <p align="center"><i>Figure 2. The main stages in detecting and extract the license plate </i></p>
 
 Đầu tiên từ clip ta sẽ cắt từng frame ảnh ra từ clip đầu vào để xử lý, tách biển số. Ở phạm vi đồ án này, ý tưởng chủ yếu là nhận diện được biển số từ sự thay đổi đột ngột về cường độ ánh sáng giữa biển số và môi trường xung quanh nên ta sẽ loại bỏ các dữ liệu màu sắc RGB bằng cách chuyển sang ảnh xám. Tiếp theo ta tăng độ tương phản với hai phép toán hình thái học Top Hat và Black Hat để làm nổi bật thêm biển số giữa phông nền, hỗ trợ cho việc xử lý nhị phân sau này. Sau đó, ta giảm nhiễu bằng bộ lọc Gauss để loại bỏ những chi tiết nhiễu có thể gây ảnh hưởng đến quá trình nhận diện, đồng thời làm tăng tốc độ xử lý.
